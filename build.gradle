@@ -14,7 +14,14 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'junit:junit:4.13.1'
+    implementation 'junit:junit:4.13.1'
+	implementation 'junit:junit:4.13.1'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation('org.projectlombok:lombok')
+
+	//gradle 5부터는 어노테이션을 구별해서 추가해줘야함
+	annotationProcessor('org.projectlombok:lombok')
 }
 
 tasks.named('test') {

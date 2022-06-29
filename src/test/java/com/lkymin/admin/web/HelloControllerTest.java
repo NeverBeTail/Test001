@@ -22,7 +22,6 @@ import static org.hamcrest.Matchers.is;
 public class HelloControllerTest {
 
     @Autowired
-
     //스프링이 관리하는 빈(Bean) 을 주입 받습니다.
     private MockMvc mvc;
     //웹 API를 테스트할 떄 사용합니다.
